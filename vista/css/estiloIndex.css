@@ -1,0 +1,190 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+}
+ 
+body {
+	background:#f2f2f2;
+	color:#333;
+	font-family:Arial, helvetica, sans-serif;
+}
+ 
+a {
+	text-decoration: none;
+	color: #F24C27;
+}
+ 
+.wrapp {
+	max-width: 1000px;
+	width:80%;
+	margin:auto;
+	overflow: hidden;
+}
+ 
+header {
+	width: 100%;
+	height: 83px;
+	padding:20px 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+
+
+body, html {
+    height: 100%;
+}
+
+#logbar{
+	margin: 0px 0px;
+	padding: 0px !important;
+	margin-top: -20px;
+	opacity: 0.8;
+
+}
+
+#logbar > .navbar-nav{
+	opacity: .5;
+}
+
+#logbar .navbar-nav>li>a {
+	font-size: .5em;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('http://localhost/Trabajos/Psicologa03/vista/assets/images/coffee.jpg');
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form#contacto {
+    margin: 10px 10%;
+}
+form#contacto > div.campo {
+    padding: 13px 10px;
+    text-align: end;
+}
+.campo {
+    margin: 0px 5px;
+}
+label.formInput {
+    padding: 10px 5%;
+}
+
+.formulario1>form#contacto {
+    /* padding: 0px 333px; */
+    text-align: center;
+    margin: 0px 20%;
+    width: 50%;
+}
+
+.campo > button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 250px;
+    padding: 5px;
+}
+textarea{
+	height: 100px;
+}
+form#contacto>div.campo>label {
+    width: 130px;
+}
+
+
+
+
+form#registro {
+    margin: 10px 15%;
+}
+form#registro > div.campo {
+    padding: 13px 10px;
+    text-align: end;
+}
+.campo {
+    margin: 0px 5px;
+}
+label.formInput {
+    padding: 10px 5%;
+}
+
+.formulario1>form#registro {
+    /* padding: 0px 333px; */
+    text-align: center;
+    margin: 0px 20%;
+    width: 50%;
+}
+
+.campo > button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 250px;
+    padding: 5px;
+}
+textarea{
+	height: 100px;
+}
+
+
+
+
+form#iniSes {
+    margin: 10px 15%;
+}
+form#iniSes > div.campo {
+    padding: 13px 10px;
+    text-align: end;
+}
+.campo {
+    margin: 0px 5px;
+}
+label.formInput {
+    padding: 10px 5%;
+}
+
+.formulario1>form#iniSes {
+    /* padding: 0px 333px; */
+    text-align: center;
+    margin: 0px 20%;
+    width: 50%;
+}
+
+.campo > button, input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    width: 250px;
+    padding: 5px;
+}
+textarea{
+	height: 100px;
+}
+
+.campo>label{
+	position: absolute;
+    padding: 0% 0px;
+    margin: 0px 0px 0 -15%;
+    text-align: end;
+    width: 70px;
+}
+
+
+@media (min-width: 768px){
+	.navbar-nav {
+    	font-size: .8em !important;
+	}
+	.navbar-nav.cambMedidas {
+    	font-size: .38em !important;
+	}
+}
